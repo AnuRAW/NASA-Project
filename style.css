@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.LiItem{
+    color: #0000ee;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    max-width: 550px;
+    padding: 20px;
+    display: grid;
+    row-gap: 5px;
+}
+
+#image{
+    width: 500px;
+    height: 300px;
+}
+
+.container1{
+    margin-top: 20px;
+    display: grid;
+    row-gap: 10px;
+}
